@@ -12,7 +12,7 @@ With docker compose:
 
 ```
 python:
-  image: tebro/pyton-dev:3
+  image: tebro/python-dev:3
   volumes:
    - ./:/src
 ```
