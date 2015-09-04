@@ -1,4 +1,4 @@
-# Docker development environment.
+# Python development environment.
 This is a very simple Docker container that installs /src/requirements.txt on first run and then runs /src/app.py
 
 
