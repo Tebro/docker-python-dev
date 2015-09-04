@@ -1,6 +1,6 @@
 FROM python:2
 
-MAINTAINER Richard Weber <richard.weber@ksfmedia.fi>
+MAINTAINER Richard Weber <tebro@tebro.fi>
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
 WORKDIR /src
