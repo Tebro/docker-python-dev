@@ -24,3 +24,15 @@ If your applications entrypoint is named something other than app.py you can pas
 If your application takes commandline arguments you can pass them in after the name of the entrypoint.
 
 `docker run -v $(pwd):/src tebro/python-dev:3 app.py arg1 arg2`
+
+And with compose
+
+```
+python:
+  image: tebro/python-dev:3
+  volumes:
+   - ./:/src
+  command: "file.py arg1 arg2"
+```
+
+
